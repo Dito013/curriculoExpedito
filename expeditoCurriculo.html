@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Currículo - Programador Júnior</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background: #e8edf2;
+            color: #333;
+            line-height: 1.6;
+            padding: 30px 15px;
+        }
+
+        .curriculo {
+            max-width: 850px;
+            margin: auto;
+            background: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            background: #1e293b;
+            color: white;
+            padding: 35px;
+        }
+
+        header h1 {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            color: #cbd5e1;
+        }
+
+        .contato {
+            margin-top: 20px;
+            font-size: 14px;
+        }
+
+        main {
+            padding: 30px 35px;
+        }
+
+        section {
+            margin-bottom: 25px;
+        }
+
+        h2 {
+            color: #1e293b;
+            font-size: 19px;
+            border-bottom: 2px solid #2563eb;
+            padding-bottom: 6px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            margin-bottom: 8px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+
+        .habilidades {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .habilidades span {
+            background: #e0e7ff;
+            color: #1e40af;
+            padding: 7px 14px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .item {
+            margin-bottom: 15px;
+        }
+
+        .item h3 {
+            font-size: 16px;
+            color: #334155;
+        }
+
+        footer {
+            background: #1e293b;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            header, main {
+                padding: 25px 20px;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+        }
+
+        @media print {
+            body {
+                background: white;
+                padding: 0;
+            }
+
+            .curriculo {
+                box-shadow: none;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="curriculo">
+
+        <header>
+            <h1>Expedito da Silva Corrêa</h1>
+
+            <p>Desenvolvedor de Sistemas Júnior</p>
+
+            <div class="contato">
+                <p>📍 Santos - São Paulo </p>
+                <p>📞 (00) 00000-0000</p>
+                <p>✉️ seuemail@email.com</p>
+                <p>GitHub: github.com/seuusuario</p>
+            </div>
+        </header>
+
+        <main>
+
+            <section>
+                <h2>Objetivo Profissional</h2>
+
+                <p>
+                    Busco uma oportunidade na área de tecnologia da informação,
+                    com foco no desenvolvimento de sistemas e aplicações web.
+                    Desejo aplicar meus conhecimentos em programação,
+                    desenvolver novas habilidades e contribuir para o
+                    crescimento da empresa.
+                </p>
+            </section>
+
+            <section>
+                <h2>Resumo Profissional</h2>
+
+                <p>
+                    Profissional em início de carreira na área de programação,
+                    com conhecimentos básicos em desenvolvimento web,
+                    lógica de programação e banco de dados.
+                    Interesse em desenvolvimento Front-End e Back-End,
+                    com disposição para aprender novas tecnologias,
+                    trabalhar em equipe e desenvolver soluções eficientes.
+                </p>
+            </section>
+
+            <section>
+                <h2>Conhecimentos Técnicos</h2>
+
+                <div class="habilidades">
+                    <span>Java - Básico</span>
+                    <span>HTML5 - Básico</span>
+                    <span>CSS3 - Básico</span>
+                    <span>PHP - Básico</span>
+                    <span>SQL - Básico</span>
+                    <span>JavaScript - Básico</span>
+                </div>
+            </section>
+
+            <section>
+                <h2>Conhecimentos em Programação</h2>
+
+                <ul>
+                    <li>
+                        Lógica de programação e algoritmos.
+                    </li>
+
+                    <li>
+                        Criação de páginas web utilizando HTML e CSS.
+                    </li>
+
+                    <li>
+                        Noções de interatividade com JavaScript.
+                    </li>
+
+                    <li>
+                        Conhecimentos básicos em Java e programação orientada
+                        a objetos.
+                    </li>
+
+                    <li>
+                        Noções de desenvolvimento Back-End com PHP.
+                    </li>
+
+                    <li>
+                        Consultas SQL, criação de tabelas e manipulação
+                        básica de banco de dados.
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Projetos Acadêmicos e Pessoais</h2>
+
+                <div class="item">
+                    <h3>Projeto 1 - Página Web</h3>
+
+                    <p>
+                        Desenvolvimento de uma página web utilizando HTML,
+                        CSS e JavaScript, com estrutura organizada e
+                        recursos básicos de interatividade.
+                    </p>
+                </div>
+
+                <div class="item">
+                    <h3>Projeto 2 - Sistema de Cadastro</h3>
+
+                    <p>
+                        Desenvolvimento de um sistema simples de cadastro
+                        de usuários, com formulários, validação de dados
+                        e integração com banco de dados SQL.
+                    </p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Formação Acadêmica</h2>
+
+                <div class="item">
+                    <h3>Graduação em Tecnologia em Análise e Desenvolvimento de Sistemas.</h3>
+
+                    <p>Centro Universitário São Judas Tadeu - Unimonte. Concluído em fev/2018.</p>
+                </div>
+
+                <div class="item">
+                    <h3>Técnico em Desenho de Páginas Web.</h3>
+
+                    <p>Senai Antonio Souza Noschese. Concluído em: dez/2017 | 160h.</p>
+                </div>
+
+                <div class="item">
+                    <h3>Técnico em Montagem e Manutenção de Computadores.</h3>
+
+                    <p>Senai Antonio Souza Noschese.Concluído em: abr/2011 | 80h.</p>
+                </div>
+
+            </section>
+
+            <section>
+                <h2>Informações Adicionais</h2>
+
+                <ul>
+                    <li>Disponibilidade para aprender novas tecnologias.</li>
+                    <li>Facilidade para trabalhar em equipe.</li>
+                    <li>Interesse em desenvolvimento de sistemas e aplicações.</li>
+                </ul>
+            </section>
+
+        </main>
+
+        <footer>
+            Currículo profissional - Área de Tecnologia da Informação
+        </footer>
+
+    </div>
+
+</body>
+</html>
